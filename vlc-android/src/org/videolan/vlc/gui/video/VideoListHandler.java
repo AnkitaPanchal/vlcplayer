@@ -2,9 +2,9 @@ package org.videolan.vlc.gui.video;
 
 import android.os.Message;
 
+import org.videolan.vlc.interfaces.IVideoBrowser;
 import org.videolan.vlc.media.MediaLibrary;
 import org.videolan.vlc.media.MediaWrapper;
-import org.videolan.vlc.interfaces.IVideoBrowser;
 import org.videolan.vlc.util.WeakHandler;
 
 public class VideoListHandler extends WeakHandler<IVideoBrowser> {

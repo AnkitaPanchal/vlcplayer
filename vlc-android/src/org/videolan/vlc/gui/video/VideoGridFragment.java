@@ -54,6 +54,7 @@ import org.videolan.vlc.gui.MainActivity;
 import org.videolan.vlc.gui.SecondaryActivity;
 import org.videolan.vlc.gui.browser.MediaBrowserFragment;
 import org.videolan.vlc.gui.helpers.UiTools;
+import org.videolan.vlc.gui.view.AutoFitRecyclerView;
 import org.videolan.vlc.gui.view.ContextMenuRecyclerView;
 import org.videolan.vlc.gui.view.SwipeRefreshLayout;
 import org.videolan.vlc.interfaces.ISortable;
@@ -66,7 +67,6 @@ import org.videolan.vlc.media.MediaWrapper;
 import org.videolan.vlc.media.Thumbnailer;
 import org.videolan.vlc.util.FileUtils;
 import org.videolan.vlc.util.VLCInstance;
-import org.videolan.vlc.gui.view.AutoFitRecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;

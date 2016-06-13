@@ -1,10 +1,11 @@
 package de.timroes.axmlrpc.serializer;
 
+import org.w3c.dom.Element;
+
 import de.timroes.axmlrpc.XMLRPCException;
 import de.timroes.axmlrpc.XMLUtil;
 import de.timroes.axmlrpc.xmlcreator.XmlElement;
 import de.timroes.base64.Base64;
-import org.w3c.dom.Element;
 
 /**
  *

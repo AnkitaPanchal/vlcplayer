@@ -1,15 +1,17 @@
 package de.timroes.axmlrpc.serializer;
 
+import org.w3c.dom.Element;
+
+import java.math.BigDecimal;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Map;
+
 import de.timroes.axmlrpc.XMLRPCClient;
 import de.timroes.axmlrpc.XMLRPCException;
 import de.timroes.axmlrpc.XMLRPCRuntimeException;
 import de.timroes.axmlrpc.XMLUtil;
 import de.timroes.axmlrpc.xmlcreator.XmlElement;
-import java.math.BigDecimal;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Map;
-import org.w3c.dom.Element;
 
 /**
  * The serializer handler serializes and deserialized objects.

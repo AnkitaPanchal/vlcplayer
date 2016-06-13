@@ -35,7 +35,6 @@ import android.view.SurfaceHolder;
 import org.videolan.libvlc.LibVLC;
 import org.videolan.libvlc.Media;
 
-import java.io.File;
 import java.io.FileDescriptor;
 import java.io.IOException;
 import java.util.Map;

@@ -24,14 +24,9 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.support.v17.leanback.app.VerticalGridFragment;
 import android.support.v17.leanback.widget.ArrayObjectAdapter;
-import android.support.v17.leanback.widget.OnItemViewClickedListener;
-import android.support.v17.leanback.widget.Presenter;
-import android.support.v17.leanback.widget.Row;
-import android.support.v17.leanback.widget.RowPresenter;
 import android.support.v17.leanback.widget.VerticalGridPresenter;
 
 import org.videolan.vlc.gui.tv.CardPresenter;
-import org.videolan.vlc.gui.tv.TvUtil;
 import org.videolan.vlc.gui.tv.browser.interfaces.BrowserFragmentInterface;
 
 public class GridFragment extends VerticalGridFragment implements BrowserFragmentInterface {

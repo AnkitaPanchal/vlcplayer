@@ -27,18 +27,14 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.net.Uri;
 import android.os.Message;
-import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
-import android.text.TextUtils;
 
+import org.videolan.vlc.gui.helpers.BitmapUtil;
+import org.videolan.vlc.gui.video.VideoPlayerActivity;
 import org.videolan.vlc.media.MediaDatabase;
 import org.videolan.vlc.media.MediaLibrary;
 import org.videolan.vlc.media.MediaWrapper;
-import org.videolan.vlc.gui.preferences.PreferencesActivity;
-import org.videolan.vlc.gui.video.VideoPlayerActivity;
-import org.videolan.vlc.gui.helpers.BitmapUtil;
 import org.videolan.vlc.util.WeakHandler;
 
 import java.util.ArrayList;

@@ -20,13 +20,12 @@
 
 package org.videolan.libvlc;
 
-import java.util.ArrayList;
-
 import android.os.Build;
 import android.util.Log;
-import android.view.Surface;
 
 import org.videolan.libvlc.util.HWDecoderUtil;
+
+import java.util.ArrayList;
 
 @SuppressWarnings("unused, JniMissingFunction")
 public class LibVLC extends VLCObject<LibVLC.Event> {

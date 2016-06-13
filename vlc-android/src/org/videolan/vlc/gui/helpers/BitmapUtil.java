@@ -29,10 +29,10 @@ import android.net.Uri;
 import android.os.Build;
 
 import org.videolan.libvlc.util.AndroidUtil;
-import org.videolan.vlc.media.MediaDatabase;
-import org.videolan.vlc.media.MediaWrapper;
 import org.videolan.vlc.R;
 import org.videolan.vlc.VLCApplication;
+import org.videolan.vlc.media.MediaDatabase;
+import org.videolan.vlc.media.MediaWrapper;
 
 public class BitmapUtil {
     public final static String TAG = "VLC/UiTools/BitmapUtil";

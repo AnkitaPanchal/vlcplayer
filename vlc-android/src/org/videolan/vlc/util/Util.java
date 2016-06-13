@@ -27,7 +27,6 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 
 import org.videolan.libvlc.util.AndroidUtil;
-import org.videolan.libvlc.util.MediaBrowser;
 import org.videolan.vlc.VLCApplication;
 
 import java.io.BufferedReader;

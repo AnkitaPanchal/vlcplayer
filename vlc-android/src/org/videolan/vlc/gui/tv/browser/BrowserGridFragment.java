@@ -37,7 +37,6 @@ import android.text.TextUtils;
 
 import org.videolan.libvlc.Media;
 import org.videolan.libvlc.util.MediaBrowser;
-import org.videolan.vlc.gui.browser.BaseBrowserFragment;
 import org.videolan.vlc.gui.helpers.MediaComparators;
 import org.videolan.vlc.gui.tv.DetailsActivity;
 import org.videolan.vlc.gui.tv.MainTvActivity;

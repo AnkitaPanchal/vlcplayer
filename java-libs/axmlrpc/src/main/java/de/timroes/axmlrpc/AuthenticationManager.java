@@ -1,7 +1,8 @@
 package de.timroes.axmlrpc;
 
-import de.timroes.base64.Base64;
 import java.net.HttpURLConnection;
+
+import de.timroes.base64.Base64;
 
 /**
  * The AuthenticationManager handle basic HTTP authentication.

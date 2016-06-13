@@ -41,9 +41,9 @@ import org.videolan.libvlc.MediaPlayer;
 import org.videolan.vlc.PlaybackService;
 import org.videolan.vlc.R;
 import org.videolan.vlc.gui.PlaybackServiceFragment;
+import org.videolan.vlc.gui.view.EqualizerBar;
 import org.videolan.vlc.interfaces.OnEqualizerBarChangeListener;
 import org.videolan.vlc.util.VLCOptions;
-import org.videolan.vlc.gui.view.EqualizerBar;
 
 public class EqualizerFragment extends PlaybackServiceFragment {
 

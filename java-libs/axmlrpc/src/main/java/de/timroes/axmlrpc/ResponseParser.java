@@ -1,6 +1,7 @@
 package de.timroes.axmlrpc;
 
-import de.timroes.axmlrpc.serializer.SerializerHandler;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -17,8 +18,7 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
+import de.timroes.axmlrpc.serializer.SerializerHandler;
 
 /**
  * The ResponseParser parses the response of an XMLRPC server to an object.

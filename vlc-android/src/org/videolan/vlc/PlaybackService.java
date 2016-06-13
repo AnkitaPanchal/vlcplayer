@@ -66,7 +66,6 @@ import org.videolan.libvlc.MediaList;
 import org.videolan.libvlc.MediaPlayer;
 import org.videolan.libvlc.util.AndroidUtil;
 import org.videolan.vlc.gui.AudioPlayerContainerActivity;
-import org.videolan.vlc.gui.browser.NetworkBrowserFragment;
 import org.videolan.vlc.gui.helpers.AudioUtil;
 import org.videolan.vlc.gui.preferences.PreferencesActivity;
 import org.videolan.vlc.gui.preferences.PreferencesFragment;

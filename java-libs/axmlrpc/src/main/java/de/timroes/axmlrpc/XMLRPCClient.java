@@ -1,17 +1,16 @@
 package de.timroes.axmlrpc;
 
-import de.timroes.axmlrpc.serializer.SerializerHandler;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStreamWriter;
-import java.net.*;
 import java.security.SecureRandom;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
-import javax.net.ssl.*;
+
+import de.timroes.axmlrpc.serializer.SerializerHandler;
 
 /**
  * An XMLRPCClient is a client used to make XML-RPC (Extensible Markup Language
